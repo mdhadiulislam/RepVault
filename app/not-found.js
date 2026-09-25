@@ -1,0 +1,3 @@
+import Link from 'next/link';
+import { ArrowLeft } from 'lucide-react';
+export default function NotFound(){return <div className="container grid min-h-[70vh] place-items-center py-20 text-center"><div><p className="text-xs font-black uppercase tracking-[.2em] text-[var(--accent)]">Error 404</p><h1 className="display mt-4 text-7xl uppercase">Route Not Found</h1><p className="mx-auto mt-4 max-w-md text-sm leading-6 text-white/40">The page you&apos;re looking for doesn&apos;t exist. Head back to the workout library.</p><Link href="/" className="mt-7 inline-flex items-center gap-2 rounded-full bg-[var(--accent)] px-6 py-3 text-xs font-black uppercase text-black"><ArrowLeft size={16}/> Back Home</Link></div></div>}
