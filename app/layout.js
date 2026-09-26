@@ -5,8 +5,12 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
 export const metadata = {
-  title: 'FitLog — Workout Library',
-  description: 'A dark, no-nonsense workout library and daily plan tracker.'
+  title: {
+    default: 'FitLog — Workout Library',
+    template: '%s | FitLog',
+  },
+  description:
+    'Explore workouts, build your daily plan, track progress, and stay consistent with FitLog.',
 };
 
 export default function RootLayout({ children }) {
