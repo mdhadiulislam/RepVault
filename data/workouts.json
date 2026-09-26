@@ -1,0 +1,244 @@
+
+[
+  {
+    "id": 1,
+    "name": "Barbell Bench Press",
+    "image": "/assets/banner.png",
+    "muscleGroups": ["Chest", "Triceps"],
+    "equipment": "Barbell",
+    "difficulty": "Intermediate",
+    "sets": 4,
+    "reps": 10,
+    "duration": 12,
+    "caloriesBurned": 85,
+    "rating": 4.8,
+    "description": "A classic upper-body compound exercise that builds strength and muscle in the chest and triceps.",
+    "instructions": [
+      "Lie flat on the bench with your feet firmly on the floor.",
+      "Grip the bar slightly wider than shoulder width.",
+      "Lower the bar slowly toward your chest.",
+      "Press the bar upward until your arms are extended."
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Barbell Squat",
+    "image": "/assets/banner.png",
+    "muscleGroups": ["Quadriceps", "Glutes"],
+    "equipment": "Barbell",
+    "difficulty": "Intermediate",
+    "sets": 4,
+    "reps": 8,
+    "duration": 15,
+    "caloriesBurned": 120,
+    "rating": 4.9,
+    "description": "A powerful lower-body compound exercise targeting the legs and glutes.",
+    "instructions": [
+      "Place the bar securely across your upper back.",
+      "Stand with your feet around shoulder width apart.",
+      "Lower your hips while keeping your chest lifted.",
+      "Drive through your feet to return to the starting position."
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Deadlift",
+    "image": "/assets/banner.png",
+    "muscleGroups": ["Back", "Glutes"],
+    "equipment": "Barbell",
+    "difficulty": "Advanced",
+    "sets": 4,
+    "reps": 6,
+    "duration": 14,
+    "caloriesBurned": 140,
+    "rating": 4.9,
+    "description": "A full-body strength exercise focused on the posterior chain.",
+    "instructions": [
+      "Stand with your feet under the bar.",
+      "Bend your knees and grip the bar firmly.",
+      "Keep your back neutral as you lift the bar.",
+      "Stand tall and lower the bar with control."
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Pull Up",
+    "image": "/assets/banner.png",
+    "muscleGroups": ["Back", "Biceps"],
+    "equipment": "Pull-up Bar",
+    "difficulty": "Advanced",
+    "sets": 3,
+    "reps": 8,
+    "duration": 10,
+    "caloriesBurned": 90,
+    "rating": 4.7,
+    "description": "A bodyweight exercise that develops the back and arm muscles.",
+    "instructions": [
+      "Grip the bar with your palms facing away.",
+      "Hang with your arms fully extended.",
+      "Pull your chest toward the bar.",
+      "Lower yourself slowly to the starting position."
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Dumbbell Shoulder Press",
+    "image": "/assets/banner.png",
+    "muscleGroups": ["Shoulders", "Triceps"],
+    "equipment": "Dumbbells",
+    "difficulty": "Intermediate",
+    "sets": 3,
+    "reps": 10,
+    "duration": 10,
+    "caloriesBurned": 75,
+    "rating": 4.6,
+    "description": "A shoulder-focused pressing exercise for building upper-body strength.",
+    "instructions": [
+      "Sit upright with a dumbbell in each hand.",
+      "Start with the dumbbells near shoulder height.",
+      "Press both dumbbells overhead.",
+      "Lower them slowly back to shoulder level."
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Barbell Row",
+    "image": "/assets/banner.png",
+    "muscleGroups": ["Back", "Biceps"],
+    "equipment": "Barbell",
+    "difficulty": "Intermediate",
+    "sets": 4,
+    "reps": 10,
+    "duration": 12,
+    "caloriesBurned": 95,
+    "rating": 4.7,
+    "description": "A compound pulling exercise that strengthens the upper and middle back.",
+    "instructions": [
+      "Hold the bar with a comfortable overhand grip.",
+      "Hinge forward while keeping your back neutral.",
+      "Pull the bar toward your lower chest.",
+      "Lower the bar slowly and repeat."
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Dumbbell Curl",
+    "image": "/assets/banner.png",
+    "muscleGroups": ["Biceps"],
+    "equipment": "Dumbbells",
+    "difficulty": "Beginner",
+    "sets": 3,
+    "reps": 12,
+    "duration": 8,
+    "caloriesBurned": 55,
+    "rating": 4.5,
+    "description": "A simple isolation exercise for developing the biceps.",
+    "instructions": [
+      "Stand with a dumbbell in each hand.",
+      "Keep your elbows close to your body.",
+      "Curl the dumbbells toward your shoulders.",
+      "Lower them slowly without swinging."
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Tricep Pushdown",
+    "image": "/assets/banner.png",
+    "muscleGroups": ["Triceps"],
+    "equipment": "Cable Machine",
+    "difficulty": "Beginner",
+    "sets": 3,
+    "reps": 12,
+    "duration": 8,
+    "caloriesBurned": 55,
+    "rating": 4.5,
+    "description": "An isolation exercise designed to strengthen and develop the triceps.",
+    "instructions": [
+      "Stand facing the cable machine.",
+      "Grip the handle with both hands.",
+      "Keep your elbows close to your sides.",
+      "Push the handle down and slowly return."
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Leg Press",
+    "image": "/assets/banner.png",
+    "muscleGroups": ["Quadriceps", "Glutes"],
+    "equipment": "Leg Press Machine",
+    "difficulty": "Intermediate",
+    "sets": 4,
+    "reps": 10,
+    "duration": 12,
+    "caloriesBurned": 110,
+    "rating": 4.6,
+    "description": "A machine-based lower-body exercise targeting the legs and glutes.",
+    "instructions": [
+      "Sit securely in the leg press machine.",
+      "Place your feet shoulder width apart on the platform.",
+      "Lower the platform with controlled movement.",
+      "Push the platform back without locking your knees."
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Lateral Raise",
+    "image": "/assets/banner.png",
+    "muscleGroups": ["Shoulders"],
+    "equipment": "Dumbbells",
+    "difficulty": "Beginner",
+    "sets": 3,
+    "reps": 12,
+    "duration": 8,
+    "caloriesBurned": 50,
+    "rating": 4.4,
+    "description": "A shoulder isolation exercise that focuses on the lateral deltoids.",
+    "instructions": [
+      "Stand with dumbbells at your sides.",
+      "Keep a slight bend in your elbows.",
+      "Raise your arms until they are around shoulder height.",
+      "Lower the dumbbells slowly."
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Plank",
+    "image": "/assets/banner.png",
+    "muscleGroups": ["Core"],
+    "equipment": "Bodyweight",
+    "difficulty": "Beginner",
+    "sets": 3,
+    "reps": 1,
+    "duration": 5,
+    "caloriesBurned": 35,
+    "rating": 4.5,
+    "description": "A bodyweight core exercise that improves stability and endurance.",
+    "instructions": [
+      "Start in a forearm plank position.",
+      "Keep your body in a straight line.",
+      "Brace your core throughout the hold.",
+      "Maintain the position for the planned duration."
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Dumbbell Lunge",
+    "image": "/assets/banner.png",
+    "muscleGroups": ["Quadriceps", "Glutes"],
+    "equipment": "Dumbbells",
+    "difficulty": "Intermediate",
+    "sets": 3,
+    "reps": 10,
+    "duration": 10,
+    "caloriesBurned": 85,
+    "rating": 4.6,
+    "description": "A unilateral leg exercise that develops strength, balance, and coordination.",
+    "instructions": [
+      "Stand tall while holding dumbbells at your sides.",
+      "Step forward with one leg.",
+      "Lower your body until both knees are bent.",
+      "Push through the front foot and return to standing."
+    ]
+  }
+]
+

@@ -16,8 +16,7 @@ import {
 } from 'lucide-react';
 import toast from 'react-hot-toast';
 import { useApp } from '../../components/AppProvider';
-
-const API = 'https://api.abcz.workers.dev/api/fitlog';
+import workoutData from '../../../data/workouts.json';
 
 export default function WorkoutDetails({ params }) {
   const { id } = use(params);
@@ -29,14 +28,17 @@ export default function WorkoutDetails({ params }) {
   const [error, setError] = useState('');
 
   useEffect(() => {
-    fetch(`${API}/${id}`)
-      .then((r) => {
-        if (!r.ok) throw new Error('Workout not found.');
-        return r.json();
-      })
-      .then(setWorkout)
-      .catch((e) => setError(e.message))
-      .finally(() => setLoading(false));
+    const foundWorkout = workoutData.find(
+      (item) => String(item.id) === String(id)
+    );
+
+    if (!foundWorkout) {
+      setError('Workout not found.');
+    } else {
+      setWorkout(foundWorkout);
+    }
+
+    setLoading(false);
   }, [id]);
 
   if (loading) {
@@ -112,8 +114,6 @@ export default function WorkoutDetails({ params }) {
       </Link>
 
       <div className="grid gap-8 lg:grid-cols-[.95fr_1.05fr] lg:items-start">
-        
-        {/* Workout Image */}
         <div className="relative aspect-[4/3] overflow-hidden rounded-3xl border border-white/10 bg-[#151515]">
           <Image
             src={workout.image}
@@ -124,7 +124,6 @@ export default function WorkoutDetails({ params }) {
           />
         </div>
 
-        {/* Workout Details */}
         <div>
           <div className="flex flex-wrap gap-2">
             {workout.muscleGroups.map((g) => (
@@ -145,7 +144,6 @@ export default function WorkoutDetails({ params }) {
             {workout.description}
           </p>
 
-          {/* Key Specs */}
           <div className="mt-8 overflow-hidden rounded-2xl border border-white/10">
             <div className="border-b border-white/10 bg-white/[.025] px-5 py-4 text-xs font-black uppercase tracking-[.18em] text-white/45">
               Key Specs
@@ -170,15 +168,12 @@ export default function WorkoutDetails({ params }) {
                     {label}
                   </div>
 
-                  <p className="mt-2 text-sm font-bold">
-                    {value}
-                  </p>
+                  <p className="mt-2 text-sm font-bold">{value}</p>
                 </div>
               ))}
             </div>
           </div>
 
-          {/* Instructions */}
           <div className="mt-8">
             <h2 className="display text-3xl uppercase">
               Instructions
@@ -202,7 +197,6 @@ export default function WorkoutDetails({ params }) {
             </ol>
           </div>
 
-          {/* Buttons */}
           <div className="mt-8 grid gap-3 sm:grid-cols-2">
             <button
               onClick={add}
