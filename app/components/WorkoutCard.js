@@ -13,7 +13,7 @@ export default function WorkoutCard({ workout }) {
       <div className="relative aspect-[4/3] overflow-hidden bg-[#1a1a1a]">
         <Image
           src={workout.image}
-          alt={workout.name}
+          alt={`${workout.name} workout`}
           fill
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           className="object-cover transition duration-500 hover:scale-105"
