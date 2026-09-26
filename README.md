@@ -1,4 +1,3 @@
-````markdown
 # FitLog — Workout Library
 
 ## About
@@ -7,41 +6,46 @@ FitLog is a simple workout library and daily workout planner. You can browse wor
 
 ## Technologies
 
-- Next.js
-- React
-- Tailwind CSS
-- React Hot Toast
-- REST API
-- localStorage
+* Next.js
+* React
+* Tailwind CSS
+* React Hot Toast
+* REST API
+* localStorage
 
 ## Features
 
-- Browse workouts
-- View workout details
-- Add workouts to today's plan
-- Save workouts for later
-- Track workout time and calories
-- Search workouts
-- Sort workouts
-- Mark workouts as done
-- Remove workouts from the plan
-- Responsive design
+* Browse workouts
+* View workout details
+* Add workouts to today's plan
+* Save workouts for later
+* Track workout time and calories
+* Search workouts
+* Sort workouts
+* Mark workouts as done
+* Remove workouts from the plan
+* Responsive design
+
+## Project Structure
+
+* `app/` — Next.js application pages and components
+* `app/components/` — Reusable workout components
+* `app/workout/` — Workout detail pages
+* `public/` — Static assets and images
+* `package.json` — Project dependencies and scripts
 
 ## Run Locally
 
 ```bash
 npm install
 npm run dev
-````
+```
 
-Open [http://localhost:3000](http://localhost:3000)
+Open http://localhost:3000
 
 ## Build
 
 ```bash
 npm run build
 npm start
-```
-
-```
 ```
